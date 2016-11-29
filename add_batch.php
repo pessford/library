@@ -1,4 +1,4 @@
-<?php nbjbjn
+<?php
 include('header.php');
 
     $get_session = "select * from student_session";
