@@ -1,0 +1,49 @@
+
+.systemnameheader {
+	text-align: center;
+}
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+.payments {
+	font-size: 1.5em;	
+}
+.cnavbar-header {
+    margin-left: 250px;
+}
+.cnavbar-default {
+	background-color: #3B8CBB;
+}
+.cnavbar-default .navbar-brand{
+	color: #fff;
+}
+
+body {
+    background-color: #495B6C;
+}
+.nav>li>a {
+	    background: #495b6c;
+	    color: #fff;
+}
+.sidebar ul li {
+    border-bottom: 1px solid #484545;
+}
+.sidebarnavbar-default {
+	background: #495b6c;
+}
+.nav>li>a:focus{
+	background-color: #4b4b4c;
+}
+ .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #1a1a1b;
+}
+.sidebar ul li a.active {
+    background-color: #e04006;
+}

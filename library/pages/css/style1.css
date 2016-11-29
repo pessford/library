@@ -1,0 +1,94 @@
+.signupnavcolor
+{
+	background: rgb(5,149,210);
+}
+.signuppanelmargin
+{
+	margin-top:120px;
+}
+.TextInput
+{
+	width: 100%;
+border: 1px solid #cacaca;
+color: #3b3b3b;
+box-sizing: border-box;
+border-radius: 2px;
+}
+.TextInput_large
+{
+	line-height: 1.1875;
+	padding: .79166667rem 1rem;
+
+}
+.panelcolor
+{
+	background:rgb(243,243,243);
+}
+.loginheadingcolor
+{
+	font-size: 32px;
+line-height: 36px;
+margin-bottom: 6px;
+color: #2dbe60;
+}
+.navcolorindex
+{
+	background: rgb(40,169,85);
+}
+.menucolor
+{
+	color:rgb(255, 255, 255) !important;
+}
+.headingwalletcolor
+{
+	color:rgb(66,133,244);
+}
+.modalwidth
+{
+	width:700px !important;
+}
+.textwidth
+{
+	width:80% !important;
+}
+.passwordmargin
+{
+	margin-left: 77px;
+}
+.scrolheight
+{
+	max-height: 480px !important;
+}
+.margintop
+{
+	margin-top: 60px;
+}
+.marginleftclose
+{
+	margin-left:100%;
+	color: #2dbe60;
+}
+ a:hover
+{
+    text-decoration: none !important;
+}
+.formlabel
+{
+	float: left;
+ text-align: left;
+ width: 28%;
+
+}
+.inputform
+{
+	float: left;
+	width: 40%;
+}
+.contcolor
+{
+	background: rgb(218,218,218);
+}
+.bodybackimage
+{
+		background-image: url("images/logcover.jpg");
+}
