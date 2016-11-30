@@ -6,7 +6,7 @@ if(isset($_POST['submit'])){
         $book_id=$_POST['book_id'];
         $student_id = $_POST['student_id'];
         $issue_date=$_POST['issue_date'];
-        $date1=date_create($return_date);
+        $date1=date_create($issue_date);
         $newdate2=date_format($date1,"Y-m-d");
 
         $return_date=$_POST['return_date'];
@@ -17,8 +17,12 @@ if(isset($_POST['submit'])){
         $issue_at=$_POST['issue_for'];
        $insert = "insert into book_issue(book_id,stu_id,issue_at,issue_time,return_time,late_fine_fee,status)VALUES('".$book_id."','".$student_id."','".$issue_at."','".$newdate2."','".$newdate."','".$fine."','ISSUE')";  
       //echo $insert;
-        $quer=mysqli_query($conn,$insert);
-        $last_id=mysqli_insert_id($conn);
+        if($quer=mysqli_query($conn,$insert))
+        {
+          $update="update books_attribute set status='ISSUE' where barcode_id='".$book_id."'";
+          mysqli_query($conn,$update);
+        }
+        //$last_id=mysqli_insert_id($conn);
 
 
         if($quer){
